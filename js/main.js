@@ -1,6 +1,4 @@
 $(function () {
-
-
     $('.btn-primary').click(function () {
         let inputValue = $('.form-control').val();
         if (inputValue) {
