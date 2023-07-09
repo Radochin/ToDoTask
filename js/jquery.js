@@ -9,7 +9,6 @@
  * Date: 2023-05-11T18:29Z
  */
 ( function( global, factory ) {
-
 	"use strict";
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {

@@ -14,8 +14,7 @@ $(function () {
     $(document).on('click', '.setBtn .btn.btn-outline-success', function () {
         $(this).closest('.todoTask').find('span').css('text-decoration', 'line-through');
     });
-
-
+    
     $(document).on('click', '.setBtn .btn.btn-outline-danger', function () {
         $(this).closest('.todoTask  ').remove();
     });
